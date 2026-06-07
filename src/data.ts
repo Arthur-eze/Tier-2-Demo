@@ -1,4 +1,6 @@
 import { Service, Testimonial } from "./types";
+// @ts-ignore
+import dentistHero from "./assets/images/dentist_hero_1780835368143.png";
 
 export const SERVICES: Service[] = [
   {
@@ -99,5 +101,5 @@ export const TIME_SLOTS: string[] = [
 ];
 
 // Reference the generated image specifically mapped from the filesystem
-export const HERO_IMAGE_URL = "/src/assets/images/dentist_hero_1780835368143.png";
+export const HERO_IMAGE_URL = dentistHero;
 export const WHATSAPP_NUMBER = "+15550199283"; // Mock Premium doctor WhatsApp
