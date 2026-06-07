@@ -66,7 +66,7 @@ export default function App() {
   };
 
   // Custom formatted WhatsApp link for floating action trigger
-  const whatsappFloatUrl = "https://wa.me/8977820625?text=I%20need%20to%20book%20an%20appointment";
+  const whatsappFloatUrl = "https://wa.me/918977820625?text=I%20need%20to%20book%20an%20appointment";
 
   return (
     <div id="dentist-app-root" className="min-h-screen bg-white text-black flex flex-col antialiased selection:bg-brand-green selection:text-white">

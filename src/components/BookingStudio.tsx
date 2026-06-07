@@ -223,7 +223,7 @@ export default function BookingStudio({
                 {/* Brand-themed CTA matching the 3-color rule */}
                 <a
                   id="whatsapp-chat-button"
-                  href="https://wa.me/8977820625?text=I%20need%20to%20book%20an%20appointment"
+                  href="https://wa.me/918977820625?text=I%20need%20to%20book%20an%20appointment"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full mt-8 bg-brand-green hover:bg-black text-white font-bold text-xs uppercase tracking-widest py-4 text-center select-none font-sans transition-all duration-200"

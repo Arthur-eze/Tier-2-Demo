@@ -102,4 +102,4 @@ export const TIME_SLOTS: string[] = [
 
 // Reference the generated image specifically mapped from the filesystem
 export const HERO_IMAGE_URL = dentistHero;
-export const WHATSAPP_NUMBER = "+15550199283"; // Mock Premium doctor WhatsApp
+export const WHATSAPP_NUMBER = "+91 89778 20625"; // Premium doctor WhatsApp
