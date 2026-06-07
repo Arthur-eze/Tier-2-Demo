@@ -1,0 +1,6 @@
+{
+  "name": "Premium DemoDentist",
+  "description": "A premium, stylish, modern dentist website for Premium DemoDentist featuring high-fidelity appointment booking, real-time calendar slot reservation, and patient testimonials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
