@@ -37,14 +37,14 @@ export default function Services({ onSelectService }: ServicesProps) {
   };
 
   return (
-    <section id="services" className="py-20 bg-white relative overflow-hidden">
+    <section id="services" className="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden">
       {/* Decorative vector grid pattern */}
       <div className="absolute inset-0 opacity-[0.02] bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:16px_16px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
         
         {/* Header */}
-        <div className="max-w-3xl mx-auto space-y-4 mb-16">
+        <div className="max-w-3xl mx-auto space-y-4 mb-10 sm:mb-16">
           <span className="text-xs font-bold text-brand-green uppercase tracking-widest block font-sans">
             Signature Dental Services
           </span>
@@ -84,7 +84,7 @@ export default function Services({ onSelectService }: ServicesProps) {
               transition={{ duration: 0.4, delay: index * 0.08 }}
               key={service.id}
               id={`service-card-${service.id}`}
-              className="group bg-white rounded-[2rem] border border-black/10 hover:border-brand-green p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
+              className="group bg-white rounded-[2rem] border border-black/10 hover:border-brand-green p-6 sm:p-8 shadow-sm hover:shadow-md transition-all duration-300 flex flex-col justify-between"
             >
               <div className="space-y-4 font-sans">
                 

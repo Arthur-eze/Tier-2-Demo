@@ -5,12 +5,12 @@ import { TESTIMONIALS } from "../data";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="py-20 bg-white relative overflow-hidden border-t border-black/10">
+    <section id="testimonials" className="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden border-t border-black/10">
       
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10 text-center">
         
         {/* Simple Clean Section Header */}
-        <div className="max-w-2xl mx-auto text-center space-y-3 mb-16">
+        <div className="max-w-2xl mx-auto text-center space-y-3 mb-10 sm:mb-16">
           <span className="text-xs font-bold text-brand-green uppercase tracking-widest block font-sans">
             Client Stories
           </span>
@@ -32,7 +32,7 @@ export default function Testimonials() {
               transition={{ duration: 0.4, delay: index * 0.1 }}
               key={rev.id}
               id={`review-card-${rev.id}`}
-              className="bg-white p-8 rounded-2xl border border-black/10 flex flex-col justify-between text-left shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="bg-white p-6 sm:p-8 rounded-2xl border border-black/10 flex flex-col justify-between text-left shadow-sm hover:shadow-md transition-shadow duration-300"
             >
               <div className="space-y-4 font-sans">
                 {/* Clean rating stars */}

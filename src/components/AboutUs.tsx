@@ -27,11 +27,11 @@ export default function AboutUs() {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white border-t border-black/10 text-left">
+    <section id="about" className="py-12 sm:py-16 md:py-20 bg-white border-t border-black/10 text-left">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         
         {/* Core Double Column - Philosophy & Bio */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start mb-24">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start mb-12 sm:mb-16 lg:mb-24">
           
           {/* Left Side: About Philosophy */}
           <div className="lg:col-span-6 space-y-6">
@@ -126,8 +126,8 @@ export default function AboutUs() {
         </div>
 
         {/* Contact Coordinates Block (Map cards) */}
-        <div id="contact" className="border-t border-black/10 pt-20">
-          <div className="max-w-2xl text-left space-y-3 mb-10">
+        <div id="contact" className="border-t border-black/10 pt-12 sm:pt-16 lg:pt-20">
+          <div className="max-w-2xl text-left space-y-3 mb-6 sm:mb-10">
             <span className="text-xs font-bold text-brand-green uppercase tracking-widest block font-sans">
               Connect & Visit
             </span>

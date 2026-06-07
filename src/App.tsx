@@ -113,9 +113,9 @@ export default function App() {
       </main>
 
       {/* FOOTER BLOCK */}
-      <footer id="app-footer" className="bg-black text-white/70 py-16 border-t border-brand-green/20">
+      <footer id="app-footer" className="bg-black text-white/70 py-12 sm:py-16 border-t border-brand-green/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-10 items-start text-left">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8 sm:gap-10 items-start text-left">
             
             {/* Branding Column */}
             <div className="space-y-4">
@@ -198,7 +198,7 @@ export default function App() {
 
           </div>
 
-          <hr className="border-brand-green/10 my-10" />
+          <hr className="border-brand-green/10 my-6 sm:my-10" />
 
           {/* Sub block */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-light text-white/40">

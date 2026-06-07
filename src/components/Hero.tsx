@@ -11,7 +11,7 @@ export default function Hero({ onNavigate }: HeroProps) {
   return (
     <section 
       id="hero-section" 
-      className="relative min-h-[calc(100vh-80px)] flex items-center py-16 md:py-24 overflow-hidden text-left"
+      className="relative min-h-[calc(100vh-80px)] flex items-center py-12 sm:py-16 md:py-24 overflow-hidden text-left"
     >
       {/* Real Full Screen Background Image */}
       <div 
@@ -22,12 +22,12 @@ export default function Hero({ onNavigate }: HeroProps) {
       {/* Elegant light overlays to blend text beautifully with the bright picture */}
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent z-10 hidden md:block" />
       <div className="absolute inset-0 bg-white/90 z-10 md:hidden" />
-
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-20 w-full animate-fade-in">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+ 
+      <div className="max-w-7xl mx-auto px-4 sm:px-8 lg:px-12 relative z-20 w-full animate-fade-in">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-12 lg:gap-16 items-center">
           
           {/* Left: Premium Minimal Text */}
-          <div className="lg:col-span-7 space-y-8 text-left">
+          <div className="lg:col-span-7 space-y-6 sm:space-y-8 text-left">
             <div>
               <span className="text-xs font-bold text-brand-green uppercase tracking-widest block mb-4">
                 Welcome to Premium DemoDentist

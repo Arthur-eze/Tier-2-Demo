@@ -101,7 +101,7 @@ export default function BookingStudio({
   };
 
   return (
-    <section id="booking" className="py-20 bg-white relative border-t border-black/10 text-black">
+    <section id="booking" className="py-12 sm:py-16 md:py-20 bg-white relative border-t border-black/10 text-black">
       {/* Absolute subtle background glowing nodes */}
       <div className="absolute top-1/4 left-10 w-[300px] h-[300px] bg-brand-green/5 rounded-full filter blur-3xl pointer-events-none" />
       <div className="absolute bottom-1/4 right-10 w-[300px] h-[300px] bg-brand-green/3 rounded-full filter blur-3xl pointer-events-none" />
@@ -109,7 +109,7 @@ export default function BookingStudio({
       <div className="max-w-5xl mx-auto px-6 sm:px-8 relative z-10 text-left">
         
         {/* Simple Section Header */}
-        <div className="text-center space-y-3 mb-14">
+        <div className="text-center space-y-3 mb-8 sm:mb-14">
           <span className="text-xs font-bold text-brand-green uppercase tracking-widest block font-sans">
             Personal Concierge Scheduling
           </span>
@@ -192,7 +192,7 @@ export default function BookingStudio({
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 items-stretch max-w-4xl mx-auto">
               
               {/* LEFT CARD: Quick Connect */}
-              <div className="bg-white border border-black/10 rounded-lg p-8 py-14 flex flex-col justify-between items-center text-center shadow-sm">
+              <div className="bg-white border border-black/10 rounded-lg p-6 py-10 sm:p-8 sm:py-14 flex flex-col justify-between items-center text-center shadow-sm">
                 
                 {/* Glowing green messenger icon top */}
                 <div className="relative flex items-center justify-center h-20 w-20 rounded-full bg-brand-green/10 border border-brand-green/20 mb-4 animate-pulse-slow">
@@ -233,7 +233,7 @@ export default function BookingStudio({
               </div>
 
               {/* RIGHT CARD: Appointment Form */}
-              <div className="bg-white border border-black/10 rounded-lg p-8 flex flex-col justify-between shadow-sm">
+              <div className="bg-white border border-black/10 rounded-lg p-6 sm:p-8 flex flex-col justify-between shadow-sm">
                 <form id="booking-form-workbench" onSubmit={handleFormSubmit} className="space-y-5 flex flex-col justify-between h-full">
                   
                   <div className="space-y-4">
@@ -275,7 +275,7 @@ export default function BookingStudio({
                     </div>
 
                     {/* Left/Right Grid for Date & Time (exactly side-by-side) */}
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-2 gap-3 sm:gap-4">
                       
                       {/* Date Block */}
                       <div className="space-y-1.5 text-left">
