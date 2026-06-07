@@ -39,7 +39,7 @@ export default function AboutUs() {
               Our Clinical Philosophy
             </span>
             <h2 id="about-headline" className="font-display text-3xl sm:text-4xl font-extrabold text-black tracking-tight leading-tight">
-              Bespoke Dental Wellness Crafted Around Your Experience
+              Signature Dental Wellness Crafted Around Your Experience
             </h2>
             
             <div className="space-y-4 font-sans text-sm text-black/70 leading-relaxed font-light">

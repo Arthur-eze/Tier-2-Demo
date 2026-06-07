@@ -39,7 +39,7 @@ export default function Hero({ onNavigate }: HeroProps) {
                 id="hero-headline"
                 className="font-display text-4xl sm:text-5xl lg:text-6xl font-extrabold text-black tracking-tight leading-[1.12]"
               >
-                Bespoke Dentistry,{" "}
+                Signature Dentistry,{" "}
                 <span className="text-brand-green block">
                   Painless Excellence.
                 </span>

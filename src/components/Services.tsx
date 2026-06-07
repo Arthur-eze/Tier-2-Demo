@@ -46,7 +46,7 @@ export default function Services({ onSelectService }: ServicesProps) {
         {/* Header */}
         <div className="max-w-3xl mx-auto space-y-4 mb-16">
           <span className="text-xs font-bold text-brand-green uppercase tracking-widest block font-sans">
-            Bespoke Dental Services
+            Signature Dental Services
           </span>
           <h2 id="services-title" className="font-display text-4xl font-extrabold text-black tracking-tight">
             Specialized Care Designed for Absolute Comfort
